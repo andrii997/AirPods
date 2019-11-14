@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+	.banner .title {
+    font-size: 29px;
+	}
+
+	.banner .subtitle {
+		font-size: 19px;
+	}
+	.banner .present .title {
+		font-size: 29px;
+	}
+	.banner .present .title + span {
+		font-size: 16px;
+	}
+	.banner .present .subtitle {
+		font-size: 16px;
+	}
+	.banner .present .container-img img {
+		width: 100%;
+	}
+
+	.banner .present .container-img:before {
+	    font-size: 40px;
+	    top: 25px;
+	    left: 10px;
+	}
+	.banner .present .descr {
+	    font-size: 14px;
+	}
+	.banner .camera-descr {
+		font-size: 14px;
+	}
+	.stock .box-price .old-price {
+		font-size: 26px;
+	}
+	.stock .box-price .price {
+		font-size: 26px;
+	}
+
+	.header .descr {
+		font-size: 16px;
+	}
+	.head-cam .container-img img {
+		width: 100%;
+	}
+	.size-title {
+		font-size: 26px;
+	}
+	.prez .descr-light {
+		font-size: 18px;
+	}
+	.characteristic .box {
+		font-size: 18px;
+	}
+	.reviews .comment {
+		font-size: 18px;
+	}
+}
+
+
+

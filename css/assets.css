@@ -1,0 +1,55 @@
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #fff;
+	font-family: SFUIDisplay-Regular, sans-serif;
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: SFUIDisplay-Regular;
+ src: url(fonts/SFUIDisplay-Regular.otf);
+}
+
+@font-face {
+ font-family: SFUI-Display-Heavy;
+ src: url(fonts/SFUI-Display-Heavy.otf);
+}
+
+@font-face {
+ font-family: SFUIDisplay-Light;
+ src: url(fonts/SFUIDisplay-Light.otf);
+}
+
+@font-face {
+ font-family: SFUIDisplay-Semibold;
+ src: url(fonts/SFUIDisplay-Semibold.otf);
+}
+
+@font-face {
+ font-family: SFUIDisplay-Thin;
+ src: url(fonts/SFUIDisplay-Thin.otf);
+}
