@@ -1,6 +1,33 @@
+header {
+	position: fixed;
+	width: 100%;
+	display: block;
+	background: #2d68ee;
+	padding: 15px 0; 
+}
+
+header ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 24px;
+}
+
 .content {
-	max-width: 1050px;
 	margin: 0 auto;
+	padding-top: 60px;
 }
 
 .header {
@@ -31,20 +58,23 @@
 .reseller {
 	background-color: #333333;
 	color: #fff;
+	padding: 60px 0 90px;
+	margin-bottom: 75px;
+}
+
+.reseller-img {
+	margin-bottom: 75px;
 }
 
 .reseller img {
 	margin: 0 auto;
 	display: block;
-	padding-top: 60px;
 }
 
 .reseller-text {
 	font-family: SFUIDisplay-Light;
 	font-size: 30px;
 	text-align: center;
-	padding-top: 75px;
-	padding-bottom: 90px;
 	letter-spacing: 3px;
 }
 
@@ -56,13 +86,13 @@
 	font-family: SFUIDisplay-Thin;
 	font-size: 36px;
 	color: #333333;
-	padding-top: 75px;
 }
 
 .generation-bg {
 	background-color: #000;
 	color: #fff;
-	padding-bottom: 30px;
+	padding: 30px 0;
+	margin-bottom: 75px;
 }
 
 .generation > .title-gen-descr {
@@ -92,6 +122,7 @@
 	font-size: 60px;
 	text-align: center;
 	color: #545353;
+	margin-bottom: 50px;
 }
 
 .price span {
@@ -100,7 +131,7 @@
 
 .button-buy {
 	text-align: center;
-	padding: 50px 0 30px 0;
+	margin-bottom: 30px;
 }
 
 .button-buy button {
@@ -132,27 +163,32 @@
 .par-gen {
 	font-family: SFUIDisplay-Thin;
 	max-width: 750px;
-	margin: 0 auto;
+	margin: 0 auto 85px;
 	color: #333333;
 	text-align: justify;
+
 }
 
 .par-gen p {
 	font-size: 26px;
 	color: #333333;
-	padding-bottom: 20px;
+	margin-bottom: 45px;
 }
 
 .par-gen h4 {
 	font-size: 60px;
 	color: #4070de;
-	padding: 85px 0 65px 0;
 	text-align: center;
+	margin-bottom: 65px;
 }
 
 .par-gen ul {
 	font-size: 26px;
 	list-style: none;
+}
+
+.par-gen ul li {
+	margin-bottom: 20px;
 }
 
 .par-gen ul li::before {
@@ -178,8 +214,8 @@
 	font-family: SFUIDisplay-Semibold;
 	font-size: 56px;
 	color: #818181;
-	padding-top: 55px;
 	text-align: center;
+	margin-bottom: 55px;
 }
 
 .benefits-app {
@@ -189,8 +225,14 @@
 	border-radius: 50%; 
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 55px;
-	margin-top: 45px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 45px;
 }
 
 .benefits {
@@ -200,38 +242,32 @@
 	border-radius: 50%; 
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 70px;
-	margin-top: 45px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 45px;
 }
 
 .benefits-descr {
 	font-family: SFUIDisplay-Thin;
 	font-size: 46px;
 	color: #447bf8;
-	padding-top: 45px;
-	padding-bottom: 45px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 
 .ap-bl {
 	display: block;
-	margin: 0 auto;
-	padding: 80px 0 60px;
+	margin: 80px auto;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 .form {
-	padding: 40px 150px 50px;
+	padding: 60px 150px 50px;
 	background: #000;
 	margin-bottom: 50px;
 }
@@ -261,18 +297,19 @@
 
 .form form button.btn {
 	background: #306EE8;
-	    color: #fff;
-		box-shadow: 0px 15px 20px rgba(46, 157, 229, 0.4);
-	    border-radius: 10px;
-	    text-decoration: none;
-	    padding: 20px 20px;
-	    font-size: 28px;
-		font-family: SFUIDisplay-Semibold;
-	    border: none;
-	    display: block;
-	    margin: 0 auto;
-	    cursor: pointer;
-	    width: 350px;
+    color: #fff;
+	box-shadow: 0px 15px 20px rgba(46, 157, 229, 0.4);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 28px;
+	font-family: SFUIDisplay-Semibold;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 350px;
+    transition: all 0.3s ease 0s;
 }
 
 .form form button.btn:hover {
@@ -292,4 +329,207 @@
 
 .ytp-watch-later-button{
     display : none !important;
+}
+
+.how-order {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.how-order h3 {
+    font-family: SFUIDisplay-Semibold;
+    font-size: 56px;
+    color: #818181;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.how-order .benefits {
+	margin-bottom: 20px;
+}
+
+.how-order p {
+	font-size: 26px;
+    color: #333333;
+    margin-bottom: 45px;
+
+    font-family: SFUIDisplay-Thin;
+    text-align: justify;
+}
+
+.certificate {
+	margin-bottom: 100px;
+}
+
+.certificate h3 {
+	font-family: SFUIDisplay-Semibold;
+	font-size: 56px;
+	color: #818181;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.certificate .container-img img {
+	margin: 0 auto;
+	display: block;
+}
+
+footer {
+	padding-top: 130px;
+	position: relative;
+}
+
+.copyright {
+	display: block;
+    background: #2d68ed;
+    color: #fff;
+    font-size: 24px;
+    padding: 200px 0px 70px;
+    text-align: center;
+    position: relative;
+}
+
+footer:before {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../img/footer.png') no-repeat center bottom;
+	z-index: 999;
+
+}
+
+.request {
+	padding: 70px 0;
+}
+
+.request h3 {
+	font-family: SFUIDisplay-Semibold;
+	font-size: 56px;
+	color: #818181;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.request input,
+.request select {
+	background: #e6e6e6;
+	border: none;
+	box-shadow: 0 2px 0 2px #cccccc inset;
+	display: block;
+
+	font-family: SFUIDisplay-Thin;
+	color: #000;
+    margin: 0 auto 30px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-size: 22px;
+    width: 600px;
+}
+
+.request form button {
+	background: #306EE8;
+    color: #fff;
+	box-shadow: 0px 15px 20px rgba(46, 157, 229, 0.4);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 28px;
+	font-family: SFUIDisplay-Semibold;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 350px;
+    transition: all 0.3s ease 0s;
+}
+
+.request form button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.reviews {
+	padding: 70px 0;
+}
+.reviews .container {
+	max-width: 750px;
+}
+.reviews h3 {
+	font-family: SFUIDisplay-Semibold;
+	font-size: 56px;
+	color: #818181;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.reviews .review {
+	margin-bottom: 30px;
+}
+
+.reviews .review .review-name {
+	color: #818181;
+	font-family: SFUIDisplay-Semibold;
+	font-size: 30px;
+}
+
+.reviews .review .review-comment {
+	font-size: 26px;
+	color: #818181;
+	text-align: justify;
+	font-family: SFUIDisplay-Thin;
+}
+
+.nova-poshta {
+	max-width: 750px;
+	margin: 0 auto 50px;
+
+}
+
+.nova-poshta p {
+	font-size: 26px;
+	color: #333333;
+	margin-bottom: 45px;
+	font-family: SFUIDisplay-Thin;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+.nova-poshta .container-img {
+	margin-bottom: 40px;
+}
+
+.nova-poshta .container-img img  {
+	margin: 0 auto;
+	display: block;
+}
+
+.callback {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 999;
+	width: 100px;
+}
+.callback:hover {
+	transform: scale(1.2);
+	transition: all 0.3s ease 0s;
+}
+
+.callback img {
+	width: 100%;
+}
+
+.title-gen-descr {
+	text-align: center;
+}
+
+
+.form .container {
+	max-width: 750px;
 }
